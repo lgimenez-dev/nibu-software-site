@@ -1,5 +1,5 @@
 import Autoplay from "embla-carousel-autoplay"
-import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious, } from "@/components/ui/carousel"
+import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious, } from "@/components/ui"
 import { TestimonialCard } from "./testimonial-card"
 import { motion } from "framer-motion"
 import { useBreakpoint } from "@/hooks"

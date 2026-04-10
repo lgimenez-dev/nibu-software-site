@@ -1,10 +1,10 @@
+import { CONTACT_INFO } from "@/components/shared"
 import { PageHeader } from "./page-header"
 import { SearchFilter } from "./search-filter"
 import { TechniciansGrid } from "./technicians-grid"
 import { EmptyState } from "./empty-state"
 import { JoinSection } from "./join-section"
 import { PAGE_INFO } from "./support.constants"
-import { CONTACT_INFO } from "@/components/shared"
 import { useTechnicianFilters } from "./support.hooks"
 
 export function SupportPage() {

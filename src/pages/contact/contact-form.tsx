@@ -1,11 +1,6 @@
 import { Controller } from "react-hook-form"
-import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
-import { Textarea } from "@/components/ui/textarea/textarea"
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
-import { Field, FieldLabel, FieldError } from "@/components/ui/field"
-import { Card, CardContent } from "@/components/ui/card"
-import { IconWhatsappSocial } from "@/components/shared/icons"
+import { Card, CardContent, Button, Input, Textarea, Select, SelectContent, SelectItem, SelectTrigger, SelectValue, Field, FieldLabel, FieldError } from "@/components/ui"
+import { IconWhatsappSocial } from "@/components/shared"
 import { FORM_CONFIG } from "./contact.constants"
 import type { ContactFormProps } from "./contact.types"
 

@@ -4,7 +4,7 @@ import { useLocation } from 'react-router-dom';
 /**
  * desplaza la ventana hacia arriba cuando la ubicación cambia
  */
-const ScrollToTop = () => {
+export const ScrollToTop = () => {
   const location = useLocation();
  
   useEffect(() => {
@@ -14,4 +14,3 @@ const ScrollToTop = () => {
   return null;
 };
  
-export default ScrollToTop;

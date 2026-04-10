@@ -1,6 +1,5 @@
 import { Phone, Mail, Globe, MapPin } from "lucide-react";
-import { Button } from "@/components/ui/button";
-import { Card } from "@/components/ui/card";
+import { Button, Card } from "@/components/ui";
 import type { TechnicianCardProps } from "./support.types";
 
 

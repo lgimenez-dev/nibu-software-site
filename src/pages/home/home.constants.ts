@@ -1,18 +1,9 @@
 
 import type { Product, Stat, Testimonial, FeatureCardProps, PageInfo } from "./home.types"
-
-import iconAtlasDB from "@/assets/software-images/AtlasDB.svg"
-import iconNimbusFlow from "@/assets/software-images/NimbusFlow.svg"
-import iconPulseSync from "@/assets/software-images/PulseSync.svg"
-import iconSentinelCore from "@/assets/software-images/SentinelCore.svg"
-
-import animationPuzzle from "@/assets/animations/animation-puzzle.json"
-import animationDB from "@/assets/animations/animation-db.json"
-import animationCheck from "@/assets/animations/animation-check.json"
-import animationSatellite from "@/assets/animations/animation-satellite.json"
+import { animationPuzzle, animationDB, animationCheck, animationSatellite } from "@/assets/animations"
+import { atlasDBImage, pulseSyncImage, sentinelCoreImage, nimbusFlowImage } from "@/assets/software-images"
 import videoHero from "@/assets/hero/video-hero.webm";
 import { Headset } from "lucide-react"
-
 
 export const PAGE_DATA: PageInfo = {
   hero: {
@@ -40,7 +31,7 @@ export const PAGE_DATA: PageInfo = {
 
 export const LIST_PRODUCTS: readonly Product[] = [
   {
-    icon: iconNimbusFlow,
+    icon: nimbusFlowImage,
     title: "NimbusFlow",
     description: "Cloud-Native Workflow Automation.",
     features: [
@@ -52,7 +43,7 @@ export const LIST_PRODUCTS: readonly Product[] = [
     ],
   },
   {
-    icon: iconSentinelCore,
+    icon: sentinelCoreImage,
     title: "SentinelCore",
     description: "Security & Compliance Platform.",
     features: [
@@ -64,7 +55,7 @@ export const LIST_PRODUCTS: readonly Product[] = [
     ],
   },
   {
-    icon: iconAtlasDB,
+    icon: atlasDBImage,
     title: "AtlasDB Engine",
     description: "High-Performance Data Layer.",
     features: [
@@ -76,7 +67,7 @@ export const LIST_PRODUCTS: readonly Product[] = [
     ],
   },
   {
-    icon: iconPulseSync,
+    icon: pulseSyncImage,
     title: "PulseSync",
     description: "Real-Time Collaboration Suite.",
     features: [

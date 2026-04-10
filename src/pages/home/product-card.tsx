@@ -1,4 +1,4 @@
-import { Card, CardHeader, CardContent } from "@/components/ui/card"
+import { Card, CardHeader, CardContent } from "@/components/ui"
 import { CheckIcon } from "lucide-react"
 import type { ProductCardProps } from "./home.types"
 

@@ -3,7 +3,7 @@ import { HeroSection } from "./hero-section"
 import { ValuesSection } from "./values-section"
 import { TeamSection } from "./team-section"
 import { TrustedBrandsSection } from "./trusted-brands-section"
-import { CTASection } from "@/components/shared/cta-section"
+import { CTASection } from "@/components/shared"
 
 export function AboutUsPage() {
   return (

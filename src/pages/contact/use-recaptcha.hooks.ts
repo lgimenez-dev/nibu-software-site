@@ -3,9 +3,9 @@ import type ReCAPTCHA from "react-google-recaptcha"
 import type { UseRecaptchaOptions, UseRecaptchaReturn } from "./contact.types"
 
 /**
- * Personalized hook to integrate Google reCAPTCHA with react-hook-form.
- * This hook provides handlers and utilities to manage reCAPTCHA state and integration with the form.
- * It abstracts away the complexity of handling reCAPTCHA tokens and form state synchronization.
+ * Hook personalizado para integrar Google reCAPTCHA con react-hook-form.
+ * Este hook proporciona controladores y utilidades para gestionar el estado de reCAPTCHA y su integración con el formulario.
+ * Abstrae la complejidad de manejar los tokens de reCAPTCHA y la sincronización del estado del formulario.
  * @example
  * ```tsx
  * const { form } = useRequestInfoForm()

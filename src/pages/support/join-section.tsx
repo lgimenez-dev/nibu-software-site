@@ -1,5 +1,5 @@
 import { Mail } from "lucide-react"
-import { Button } from "@/components/ui/button"
+import { Button } from "@/components/ui"
 import type { JoinSectionProps } from "./support.types"
 
 export function JoinSection({ title, description, contactEmail }: JoinSectionProps) {

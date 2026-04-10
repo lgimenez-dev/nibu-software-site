@@ -1,4 +1,4 @@
-import { Card, CardContent } from "@/components/ui/card"
+import { Card, CardContent } from "@/components/ui"
 import { StarIcon } from "lucide-react"
 import type { TestimonialCardProps } from "./home.types"
 

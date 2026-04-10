@@ -1,0 +1,6 @@
+export * from "./about-us"
+export * from "./contact"
+export * from "./download"
+export * from "./home"
+export * from "./how-we-work"
+export * from "./support"

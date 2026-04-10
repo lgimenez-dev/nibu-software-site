@@ -1,5 +1,5 @@
 import { Search, MapPin } from "lucide-react"
-import { Input } from "@/components/ui/input"
+import { Input } from "@/components/ui"
 import type { SearchFilterProps } from "./support.types"
 
 export function SearchFilter({
