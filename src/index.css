@@ -8,12 +8,12 @@
 
 :root {
     /* colores personalizados NIBU */
-    --primary-blue: #3166a3;
-    --dark-blue: #254d7c;
-    --medium-blue: #2b5a90;
-    --light-blue: #3772b7;
-    --accent-blue: #558ccc;
-    --lightest-blue: #6999d2;
+    --primary-blue: #495057;
+    --dark-blue: #212529;
+    --medium-blue: #343a40;
+    --light-blue: #6c757d;
+    --accent-blue: #adb5bd;
+    --lightest-blue: #e9ecef;
 
     /* colores de redes sociales */
     --twitter-black: #000000;
@@ -26,38 +26,38 @@
     --whatsapp-green: #16a34a;
 
     /* shadcn/ui variables */
-    --background: oklch(0.988 0.002 247.858);  /* #f8fafc */
-    --foreground: oklch(0.235 0.015 252.418);  /* #1e293b */
+    --background: oklch(0.988 0.002 247.858);       /* #f8f9fa - bright snow */
+    --foreground: oklch(0.18 0.005 247);             /* #212529 - shadow grey */
     --card: oklch(1 0 0);
-    --card-foreground: oklch(0.235 0.015 252.418);
+    --card-foreground: oklch(0.18 0.005 247);
     --popover: oklch(1 0 0);
-    --popover-foreground: oklch(0.235 0.015 252.418);
-    --primary: oklch(0.488 0.12 250);  /* #3166a3 */
-    --primary-foreground: oklch(0.97 0.014 254.604);
-    --secondary: oklch(0.967 0.002 247.858);  /* #f1f5f9 */
-    --secondary-foreground: oklch(0.235 0.015 252.418);
-    --muted: oklch(0.967 0.002 247.858);  /* #f1f5f9 */
-    --muted-foreground: oklch(0.52 0.015 252.418);  /* #64748b */
-    --accent: oklch(0.967 0.002 247.858);
-    --accent-foreground: oklch(0.235 0.015 252.418);
+    --popover-foreground: oklch(0.18 0.005 247);
+    --primary: oklch(0.27 0.005 247);               /* #343a40 - gunmetal */
+    --primary-foreground: oklch(0.988 0.002 247.858); /* #f8f9fa - bright snow */
+    --secondary: oklch(0.942 0.003 247);             /* #e9ecef - platinum */
+    --secondary-foreground: oklch(0.18 0.005 247);
+    --muted: oklch(0.942 0.003 247);                 /* #e9ecef - platinum */
+    --muted-foreground: oklch(0.51 0.006 247);       /* #6c757d - slate grey */
+    --accent: oklch(0.905 0.004 247);               /* #dee2e6 - alabaster grey */
+    --accent-foreground: oklch(0.18 0.005 247);
     --destructive: oklch(0.58 0.22 27);
-    --border: oklch(0.922 0.004 247.858);  /* #e2e8f0 */
-    --input: oklch(0.922 0.004 247.858);
-    --ring: oklch(0.488 0.12 250);
-    --chart-1: oklch(0.809 0.105 251.813);
-    --chart-2: oklch(0.623 0.214 259.815);
-    --chart-3: oklch(0.546 0.245 262.881);
-    --chart-4: oklch(0.488 0.12 250);
-    --chart-5: oklch(0.35 0.08 250);  /* dark-blue */
+    --border: oklch(0.905 0.004 247);               /* #dee2e6 - alabaster grey */
+    --input: oklch(0.855 0.005 247);                 /* #ced4da - pale slate */
+    --ring: oklch(0.38 0.005 247);                   /* #495057 - iron grey */
+    --chart-1: oklch(0.74 0.006 247);               /* #adb5bd - pale slate 2 */
+    --chart-2: oklch(0.51 0.006 247);               /* #6c757d - slate grey */
+    --chart-3: oklch(0.38 0.005 247);               /* #495057 - iron grey */
+    --chart-4: oklch(0.27 0.005 247);               /* #343a40 - gunmetal */
+    --chart-5: oklch(0.18 0.005 247);               /* #212529 - shadow grey */
     --radius: 0.5rem;
     --sidebar: oklch(0.985 0 0);
-    --sidebar-foreground: oklch(0.235 0.015 252.418);
-    --sidebar-primary: oklch(0.488 0.12 250);
-    --sidebar-primary-foreground: oklch(0.97 0.014 254.604);
-    --sidebar-accent: oklch(0.967 0.002 247.858);
-    --sidebar-accent-foreground: oklch(0.235 0.015 252.418);
-    --sidebar-border: oklch(0.922 0.004 247.858);
-    --sidebar-ring: oklch(0.488 0.12 250);
+    --sidebar-foreground: oklch(0.18 0.005 247);
+    --sidebar-primary: oklch(0.27 0.005 247);
+    --sidebar-primary-foreground: oklch(0.988 0.002 247.858);
+    --sidebar-accent: oklch(0.942 0.003 247);
+    --sidebar-accent-foreground: oklch(0.18 0.005 247);
+    --sidebar-border: oklch(0.905 0.004 247);
+    --sidebar-ring: oklch(0.38 0.005 247);
 }
 
 .dark {
@@ -99,12 +99,12 @@
     --font-display: 'Nunito Variable', sans-serif;
     
     /* Colores NIBU personalizados como utilities */
-    --color-primary-blue: #3166a3;
-    --color-dark-blue: #254d7c;
-    --color-medium-blue: #2b5a90;
-    --color-light-blue: #3772b7;
-    --color-accent-blue: #558ccc;
-    --color-lightest-blue: #6999d2;
+    --color-primary-blue: #495057;
+    --color-dark-blue: #212529;
+    --color-medium-blue: #343a40;
+    --color-light-blue: #6c757d;
+    --color-accent-blue: #adb5bd;
+    --color-lightest-blue: #e9ecef;
 
     /* Colores de redes sociales */
     --color-twitter-black: #000000;

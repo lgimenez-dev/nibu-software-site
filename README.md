@@ -29,18 +29,18 @@ git clone https://github.com/lgimenez-dev/nibu-software-site.git
 cd nibu-solutions-website
 
 # Install dependencies
-npm install
+pnpm install
 
 # Start the dev server
-npm run dev
+pnpm run dev
 ```
 
 The app will be available at `http://localhost:3000`.
 
 ```bash
 # Build for production
-npm run build
+pnpm run build
 
 # Preview the production build
-npm run preview
+pnpm run preview
 ```

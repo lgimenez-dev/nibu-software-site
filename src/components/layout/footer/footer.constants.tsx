@@ -11,31 +11,31 @@ export const SOCIAL_LINKS = [
     name: "X",
     link: "https://twitter.com/nibusolutions",
     icon: IconXSocial,
-    bgColor: "bg-gradient-to-tr from-twitter-black to-twitter-gray",
+    bgColor: "bg-shadow-grey",
   },
   {
     name: "Facebook",
     link: "https://www.facebook.com/nibusolutions",
     icon: IconFacebookSocial,
-    bgColor: "bg-facebook-blue",
+    bgColor: "bg-iron-grey",
   },
   {
     name: "Instagram",
     link: "https://www.instagram.com/nibusolutions",
     icon: IconInstagramSocial,
-    bgColor: "bg-gradient-to-tr from-instagram-orange via-instagram-pink to-instagram-purple",
+    bgColor: "bg-gradient-to-tr from-gunmetal to-slate-grey",
   },
   {
     name: "YouTube",
     link: "https://www.youtube.com/nibusolutions",
     icon: IconYoutubeSocial,
-    bgColor: "bg-youtube-red",
+    bgColor: "bg-iron-grey",
   },
   {
     name: "WhatsApp",
     link: `${CONTACT_INFO.whatsapp.support}`,
     icon: IconWhatsappSocial,
-    bgColor: "bg-whatsapp-green",
+    bgColor: "bg-gunmetal",
   },
 ] as const
 
