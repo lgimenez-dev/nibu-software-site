@@ -40,7 +40,7 @@ export function TrustedBrandsSection({ title, description, brands }: TrustedBran
             {brands.map((brand) => (
               <CarouselItem key={brand.id} className="pl-2 sm:pl-4 basis-1/2 sm:basis-1/3 md:basis-1/4 lg:basis-1/5">
                 <div className="flex items-center justify-center p-6 h-32 rounded-lg">
-                  <brand.icon className="w-20 h-20 text-white" aria-label={brand.name} />
+                  <img src={brand.icon} alt={brand.name} className="w-20 h-20" loading="lazy" />
                 </div>
               </CarouselItem>
             ))}

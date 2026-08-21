@@ -42,7 +42,7 @@ export function HeroSection({ video, title, description }: HeroSectionProps) {
           size="lg"
           className="cursor-pointer bg-white hover:bg-gray-100 px-8 py-6 text-md rounded-md font-semibold transition-all hover:scale-105 mx-auto"
           variant="outline"
-          onClick={() => navigate("/contacto")}
+          onClick={() => navigate("/contact")}
         >
           Contact us
         </Button>

@@ -10,7 +10,7 @@ export interface Employee {
 
 export interface Brand {
   id: number
-  icon?: any
+  icon?: string
   name?: string
 }
 

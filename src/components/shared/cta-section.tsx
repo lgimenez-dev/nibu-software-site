@@ -18,7 +18,7 @@ export function CTASection({ title, description }: CTASectionProps) {
       viewport={{ once: true, amount: 0.3 }}
       transition={{ duration: 0.8, ease: [0.25, 0.46, 0.45, 0.94] }}
       style={{ transformStyle: "preserve-3d" }}
-      className="py-16 md:py-20 bg-gradient-to-r from-slate-50 to-blue-50 border-t border-gray-200"
+      className="py-16 md:py-20 border-t border-gray-200"
     >
       <div className="container-custom px-4">
         <div className="max-w-3xl mx-auto text-center">
@@ -31,7 +31,7 @@ export function CTASection({ title, description }: CTASectionProps) {
           <Button
             size="lg"
             className="cursor-pointer px-8 py-6 text-lg transition-all hover:scale-105 gap-2"
-            onClick={() => navigate("/contacto")}
+            onClick={() => navigate("/contact")}
           >
             Discuss Your Project
             <ArrowRight className="w-4 h-4" />

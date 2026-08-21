@@ -72,6 +72,16 @@ export interface TestimonialsSectionProps {
   testimonials: readonly Testimonial[]
 }
 
+export interface TrustFeature {
+  icon: object
+  title: string
+  description: string
+}
+
+export interface TrustSectionProps {
+  features: readonly TrustFeature[]
+}
+
 
 // Estructura de datos de página
 export interface PageInfo {

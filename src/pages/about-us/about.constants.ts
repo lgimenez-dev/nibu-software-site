@@ -1,6 +1,14 @@
 import videoHero from "@/assets/hero/video-hero-render.webm"
 import { michaelImage, sarahImage, sofiaImage, emilyImage, danielImage, oliviaImage, javierImage, adrianImage, jonathanImage, chloeImage, luisImage, amandaImage } from "@/assets/employees"
-import { IconChatgpt, IconGoogle, IconMcdonald, IconIntel,  IconFirefox, IconVisa, IconGithub } from '@/components/shared/icons'
+import iconAi from "@/assets/brands/ai.svg"
+import iconBrain from "@/assets/brands/brain.svg"
+import iconBug from "@/assets/brands/bug.svg"
+import iconShield from "@/assets/brands/shield.svg"
+import iconShare from "@/assets/brands/share.svg"
+import iconChatbot from "@/assets/brands/chatbot.svg"
+import iconAtom from "@/assets/brands/atom.svg"
+import iconLeaf from "@/assets/brands/leaf.svg"
+import iconCoffee from "@/assets/brands/coffee.svg"
 import type { Brand, Employee, PageInfo } from "./about.types"
 
 export const LIST_EMPLOYEES: Employee[] = [
@@ -115,13 +123,15 @@ export const LIST_EMPLOYEES: Employee[] = [
 ]
 
 export const BRANDS: Brand[] = [
-  { id: 1, name: "Google", icon: IconGoogle },
-  { id: 2, name: "ChatGPT", icon: IconChatgpt },
-  { id: 3, name: "McDonald's", icon: IconMcdonald },
-  { id: 4, name: "Intel", icon: IconIntel },
-  { id: 5, name: "Visa", icon: IconVisa },
-  { id: 7, name: "Firefox", icon: IconFirefox },
-  { id: 8, name: "Github", icon: IconGithub }
+  { id: 1, name: "Nexura", icon: iconAi },
+  { id: 2, name: "Cortex Analytics", icon: iconBrain },
+  { id: 3, name: "Vantric Group", icon: iconBug },
+  { id: 4, name: "Aegis Systems", icon: iconShield },
+  { id: 5, name: "Meridian Partners", icon: iconShare },
+  { id: 6, name: "Northfield Retail", icon: iconChatbot },
+  { id: 7, name: "Solstice Labs", icon: iconAtom },
+  { id: 8, name: "Evergreen Holdings", icon: iconLeaf },
+  { id: 9, name: "Ferro Dynamics", icon: iconCoffee }
 ]
 
 export const PAGE_DATA: PageInfo = {
@@ -136,7 +146,7 @@ export const PAGE_DATA: PageInfo = {
   },
   team: {
     title: "Our Team",
-    description: "We are specialists passionate about technology and solving complex problems. We stand out for our versatility and for providing comprehensive support, ensuring that every line of code adds value to your vision.",
+    description: "Twelve specialists, one point of contact for you. Every project is staffed by the same core team from kickoff to launch - so the person who scoped your solution is the same one who ships it.",
     employees: LIST_EMPLOYEES
   },
   trustedBrands: {

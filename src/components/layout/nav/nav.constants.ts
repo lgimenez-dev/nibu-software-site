@@ -24,8 +24,4 @@ export const NAV_MENU_ITEMS: readonly NavMenuItem[] = [
       { link: "/download", label: "Download" },
     ],
   },
-  {
-    label: "How we work",
-    link: "/how-we-work",
-  },
 ] as const

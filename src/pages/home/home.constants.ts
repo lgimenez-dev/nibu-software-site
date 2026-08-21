@@ -1,6 +1,6 @@
 
-import type { Product, Stat, Testimonial, FeatureCardProps, PageInfo } from "./home.types"
-import { animationPuzzle, animationDB, animationCheck, animationSatellite } from "@/assets/animations"
+import type { Product, Stat, Testimonial, FeatureCardProps, TrustFeature, PageInfo } from "./home.types"
+import { animationPuzzle, animationDB, animationCheck, animationSatellite, animationConversation, animationRocket, animationControl } from "@/assets/animations"
 import { atlasDBImage, pulseSyncImage, sentinelCoreImage, nimbusFlowImage } from "@/assets/software-images"
 import videoHero from "@/assets/hero/video-hero.webm";
 import { Headset } from "lucide-react"
@@ -84,7 +84,7 @@ export const LIST_FEATURES: readonly FeatureCardProps[] = [
   {
     letter: "S",
     title: "Supportive",
-    description: "We are proactive throughout the entire project — anticipating challenges before they arise and keeping things moving forward.",
+    description: "We are proactive throughout the entire project - anticipating challenges before they arise and keeping things moving forward.",
     animation: animationCheck,
   },
   {
@@ -105,6 +105,24 @@ export const LIST_FEATURES: readonly FeatureCardProps[] = [
     description: "Your data is protected at every layer. Our solutions are built with enterprise-grade security standards to keep your business safe and compliant.",
     animation: animationDB,
   },
+] as const
+
+export const LIST_TRUST_FEATURES: readonly TrustFeature[] = [
+  {
+    icon: animationConversation,
+    title: "A Dedicated Point of Contact",
+    description: "One person owns your project from day one - no ticket queues, no re-explaining context to a new face halfway through"
+  },
+  {
+    icon: animationRocket,
+    title: "Partial Deliveries",
+    description: "We deliver in iterations tied to concrete milestones - no surprises at the end"
+  },
+  {
+    icon: animationControl,
+    title: "Security & Confidentiality",
+    description: "Your code and data stay under strict confidentiality, always"
+  }
 ] as const
 
 export const LIST_STATS: readonly Stat[] = [
