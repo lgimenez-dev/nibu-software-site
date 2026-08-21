@@ -1,7 +1,5 @@
 # Nibu Solutions
 
-> Software That Drives Your Business
-
 A responsive marketing website for **Nibu Solutions**, a fictional software company. It showcases a suite of fictional products (NimbusFlow, SentinelCore, AtlasDB Engine, PulseSync), how the team works, client testimonials, and a contact flow — the kind of site a real B2B software company would ship.
 
 <img width="0" height="0" style="display:none;" alt="image" src="https://github.com/user-attachments/assets/79c3d140-1dfd-4dcd-900c-752b3b2a39ca" />
